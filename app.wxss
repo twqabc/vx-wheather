@@ -1,0 +1,19 @@
+/*背景容器样式*/
+.container{
+  height: 100vh; /*高度为100视窗，写成100%无效*/
+  display: flex; /*flex布局模型*/
+  flex-direction: column; /*垂直布局*/
+  align-items: center;/*水平方向居中*/
+  justify-content: space-around;/*调整内容位置*/
+}
+.bg {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
